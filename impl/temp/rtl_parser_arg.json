@@ -1,0 +1,41 @@
+{
+ "Device" : "GW2AR-18C",
+ "Files" : [
+  {
+   "Path" : "C:/soft/dev/hardware/MouseEmul2/rtl/clock_reset.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/soft/dev/hardware/MouseEmul2/rtl/hid_report_manager.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/soft/dev/hardware/MouseEmul2/rtl/pattern_generator.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/soft/dev/hardware/MouseEmul2/rtl/usb_descriptors.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/soft/dev/hardware/MouseEmul2/rtl/usb_device_core.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/soft/dev/hardware/MouseEmul2/rtl/usb_mouse_top.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/soft/dev/hardware/MouseEmul2/rtl/usb_packet.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/soft/dev/hardware/MouseEmul2/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

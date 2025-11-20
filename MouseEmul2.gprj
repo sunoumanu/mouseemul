@@ -1,0 +1,17 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2AR-18C" pn="GW2AR-LV18QN88C8/I7">gw2ar18c-000</Device>
+    <FileList>
+        <File path="rtl/clock_reset.sv" type="file.verilog" enable="1"/>
+        <File path="rtl/hid_report_manager.sv" type="file.verilog" enable="1"/>
+        <File path="rtl/pattern_generator.sv" type="file.verilog" enable="1"/>
+        <File path="rtl/usb_descriptors.sv" type="file.verilog" enable="1"/>
+        <File path="rtl/usb_device_core.sv" type="file.verilog" enable="1"/>
+        <File path="rtl/usb_mouse_top.sv" type="file.verilog" enable="1"/>
+        <File path="rtl/usb_packet.sv" type="file.verilog" enable="1"/>
+        <File path="constraints/tangnano20k.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
