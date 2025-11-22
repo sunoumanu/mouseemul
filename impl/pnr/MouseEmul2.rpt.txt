@@ -7,32 +7,32 @@
   <Report Title>: PnR Report
   <Design File>: /Users/sunoumanu/src/mouseemul/impl/gwsynthesis/MouseEmul2.vg
   <Physical Constraints File>: /Users/sunoumanu/src/mouseemul/constraints/tangnano20k.cst
-  <Timing Constraints File>: ---
+  <Timing Constraints File>: /Users/sunoumanu/src/mouseemul/constraints/timing.sdc
   <Tool Version>: V1.9.11.03
   <Part Number>: GW2AR-LV18QN88C8/I7
   <Device>: GW2AR-18
   <Device Version>: C
-  <Created Time>:Sat Nov 22 21:12:57 2025
+  <Created Time>:Sat Nov 22 21:30:21 2025
 
 
 2. PnR Details
 
   Running placement:
-    Placement Phase 0: CPU time = 0h 0m 0.021s, Elapsed time = 0h 0m 0.02s
-    Placement Phase 1: CPU time = 0h 0m 0.1s, Elapsed time = 0h 0m 0.099s
-    Placement Phase 2: CPU time = 0h 0m 0.035s, Elapsed time = 0h 0m 0.035s
-    Placement Phase 3: CPU time = 0h 0m 0.295s, Elapsed time = 0h 0m 0.293s
-    Total Placement: CPU time = 0h 0m 0.451s, Elapsed time = 0h 0m 0.447s
+    Placement Phase 0: CPU time = 0h 0m 0.02s, Elapsed time = 0h 0m 0.02s
+    Placement Phase 1: CPU time = 0h 0m 0.097s, Elapsed time = 0h 0m 0.096s
+    Placement Phase 2: CPU time = 0h 0m 0.036s, Elapsed time = 0h 0m 0.035s
+    Placement Phase 3: CPU time = 0h 0m 0.297s, Elapsed time = 0h 0m 0.295s
+    Total Placement: CPU time = 0h 0m 0.45s, Elapsed time = 0h 0m 0.446s
  Running routing:
     Routing Phase 0: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s
-    Routing Phase 1: CPU time = 0h 0m 0.057s, Elapsed time = 0h 0m 0.057s
-    Routing Phase 2: CPU time = 0h 0m 0.207s, Elapsed time = 0h 0m 0.201s
+    Routing Phase 1: CPU time = 0h 0m 0.054s, Elapsed time = 0h 0m 0.054s
+    Routing Phase 2: CPU time = 0h 0m 0.209s, Elapsed time = 0h 0m 0.203s
     Routing Phase 3: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s
-    Total Routing: CPU time = 0h 0m 0.264s, Elapsed time = 0h 0m 0.258s
+    Total Routing: CPU time = 0h 0m 0.263s, Elapsed time = 0h 0m 0.257s
  Generate output files:
-    CPU time = 0h 0m 0.995s, Elapsed time = 0h 0m 0.994s
+    CPU time = 0h 0m 1s, Elapsed time = 0h 0m 1s
 
- Total Time and Memory Usage: CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s, Peak memory usage = 649MB
+ Total Time and Memory Usage: CPU time = 0h 0m 2s, Elapsed time = 0h 0m 2s, Peak memory usage = 560MB
 
 
 3. Resource Usage Summary

@@ -5,8 +5,13 @@ module clock_reset (
     output logic rst_n_out    // Synchronized active low reset
 );
 
-    logic lock;
-    logic pll_clk;
+    logic       lock;
+    logic       pll_clk;
+    
+    // Connect unused PLL outputs to wires to avoid routing warnings
+    // The synthesis tool will optimize these away but won't complain
+    (* keep = "true" *) logic clkoutd_unused;
+    (* keep = "true" *) logic clkoutd3_unused;
 
     // Gowin rPLL Primitive to generate 48 MHz from 27 MHz
     // Fout = Fin * FBDIV / (IDIV * ODIV)
@@ -27,8 +32,8 @@ module clock_reset (
         .CLKOUT(pll_clk),
         .LOCK(lock),
         .CLKOUTP(),
-        .CLKOUTD(),        // Unused - constrained as false path in timing.sdc
-        .CLKOUTD3(),
+        .CLKOUTD(clkoutd_unused),   // Connected to prevent routing warning
+        .CLKOUTD3(clkoutd3_unused), // Connected to prevent routing warning
         .RESET(1'b0),      // No PLL reset
         .RESET_P(1'b0),
         .CLKIN(clk_in),

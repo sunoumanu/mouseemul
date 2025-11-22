@@ -1,7 +1,7 @@
 //
 //Written by GowinSynthesis
 //Tool Version "V1.9.11.03"
-//Sat Nov 22 21:12:55 2025
+//Sat Nov 22 21:30:18 2025
 
 //Source file index table:
 //file0 "\/Users/sunoumanu/src/mouseemul/rtl/clock_reset.sv"
@@ -30,9 +30,9 @@ wire n22_8;
 wire n19_7;
 wire safe_rst_n;
 wire rst_n_meta;
-wire pll_inst_2_CLKOUTP;
-wire pll_inst_2_CLKOUTD;
-wire pll_inst_2_CLKOUTD3;
+wire pll_inst_4_CLKOUTP;
+wire clkoutd_unused;
+wire clkoutd3_unused;
 wire lock;
 wire n12_6;
 wire n35_6;
@@ -127,9 +127,9 @@ defparam reset_cnt_0_s2.INIT=1'b0;
 defparam reset_cnt_3_s2.INIT=1'b0;
   rPLL pll_inst (
     .CLKOUT(clk_48m),
-    .CLKOUTP(pll_inst_2_CLKOUTP),
-    .CLKOUTD(pll_inst_2_CLKOUTD),
-    .CLKOUTD3(pll_inst_2_CLKOUTD3),
+    .CLKOUTP(pll_inst_4_CLKOUTP),
+    .CLKOUTD(clkoutd_unused),
+    .CLKOUTD3(clkoutd3_unused),
     .LOCK(lock),
     .CLKIN(clk_d),
     .CLKFB(GND),

@@ -3,6 +3,7 @@
 -pn GW2AR-LV18QN88C8/I7
 -cst /Users/sunoumanu/src/mouseemul/constraints/tangnano20k.cst
 -cfg /Users/sunoumanu/src/mouseemul/impl/pnr/device.cfg
+-sdc /Users/sunoumanu/src/mouseemul/constraints/timing.sdc
 -bit
 -tr
 -ph

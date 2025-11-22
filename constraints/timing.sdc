@@ -4,14 +4,10 @@
 create_clock -name clk_in -period 37.037 [get_ports {clk}]
 
 # PLL generated clock - 48 MHz
-create_clock -name clk_48m -period 20.833 [get_nets {clk_rst_inst/pll_clk}]
+# Note: The PLL output is already defined as clk_48m at the top level
+create_clock -name clk_48m -period 20.833 [get_nets {clk_48m}]
 
-# Mark clk_d (unused PLL output) as false path to suppress routing warnings
-# This is the CLKOUTD output from the PLL that is not used in the design
-set_false_path -from [get_clocks clk_d] -to [get_clocks *]
-set_false_path -from [get_clocks *] -to [get_clocks clk_d]
-
-# Asynchronous inputs
+# Asynchronous inputs - no timing relationship to internal clocks
 set_false_path -from [get_ports {rst_n}]
 set_false_path -from [get_ports {pattern_select[*]}]
 set_false_path -from [get_ports {pattern_enable}]
