@@ -28,7 +28,7 @@ module pattern_generator (
                     tick_cnt <= 0;
                     report_req <= 1;
                 end else begin
-                    tick_cnt <= tick_cnt + 1;
+                    tick_cnt <= tick_cnt + 20'd1;
                     report_req <= 0;
                 end
             end else begin
@@ -103,7 +103,7 @@ module pattern_generator (
             mouse_y <= 0;
             buttons <= 0;
         end else if (report_req) begin
-            step_cnt <= step_cnt + 1;
+            step_cnt <= step_cnt + 8'd1;
             
             case (pattern_sel)
                 2'd0: begin // Circle

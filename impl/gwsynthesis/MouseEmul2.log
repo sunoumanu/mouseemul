@@ -11,8 +11,6 @@ Compiling module 'usb_mouse_top'("/Users/sunoumanu/src/mouseemul/rtl/usb_mouse_t
 Compiling module 'clock_reset'("/Users/sunoumanu/src/mouseemul/rtl/clock_reset.sv":1)
 Compiling module 'pattern_generator'("/Users/sunoumanu/src/mouseemul/rtl/pattern_generator.sv":1)
 Extracting RAM for identifier 'sin_lut'("/Users/sunoumanu/src/mouseemul/rtl/pattern_generator.sv":50)
-WARN  (EX3791) : Expression size 21 truncated to fit in target size 20("/Users/sunoumanu/src/mouseemul/rtl/pattern_generator.sv":31)
-WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("/Users/sunoumanu/src/mouseemul/rtl/pattern_generator.sv":106)
 Compiling module 'hid_report_manager'("/Users/sunoumanu/src/mouseemul/rtl/hid_report_manager.sv":1)
 Compiling module 'usb_device_core'("/Users/sunoumanu/src/mouseemul/rtl/usb_device_core.sv":1)
 Compiling module 'usb_packet'("/Users/sunoumanu/src/mouseemul/rtl/usb_packet.sv":1)
@@ -24,10 +22,6 @@ Extracting RAM for identifier 'report_desc_real'("/Users/sunoumanu/src/mouseemul
 Extracting RAM for identifier 'str0_desc'("/Users/sunoumanu/src/mouseemul/rtl/usb_descriptors.sv":170)
 Extracting RAM for identifier 'str1_desc'("/Users/sunoumanu/src/mouseemul/rtl/usb_descriptors.sv":174)
 Extracting RAM for identifier 'str2_desc'("/Users/sunoumanu/src/mouseemul/rtl/usb_descriptors.sv":181)
-WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("/Users/sunoumanu/src/mouseemul/rtl/usb_device_core.sv":175)
-WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("/Users/sunoumanu/src/mouseemul/rtl/usb_device_core.sv":221)
-WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("/Users/sunoumanu/src/mouseemul/rtl/usb_device_core.sv":271)
-WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("/Users/sunoumanu/src/mouseemul/rtl/usb_mouse_top.sv":91)
 NOTE  (EX0101) : Current top module is "usb_mouse_top"
 [5%] Running netlist conversion ...
 Running device independent optimization ...

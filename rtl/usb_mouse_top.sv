@@ -88,7 +88,7 @@ module usb_mouse_top (
     // LEDs
     // LED[0]: Heartbeat
     logic [24:0] hb_cnt;
-    always_ff @(posedge clk_48m) hb_cnt <= hb_cnt + 1;
+    always_ff @(posedge clk_48m) hb_cnt <= hb_cnt + 25'd1;
     assign led[0] = hb_cnt[24];
     
     assign led[1] = sys_rst_n; // PLL Lock / Reset status

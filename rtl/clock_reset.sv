@@ -27,7 +27,7 @@ module clock_reset (
         .CLKOUT(pll_clk),
         .LOCK(lock),
         .CLKOUTP(),
-        .CLKOUTD(),
+        .CLKOUTD(),        // Unused - constrained as false path in timing.sdc
         .CLKOUTD3(),
         .RESET(1'b0),      // No PLL reset
         .RESET_P(1'b0),

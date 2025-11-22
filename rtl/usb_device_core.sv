@@ -172,7 +172,7 @@ module usb_device_core (
                     
                     if (rx_data_valid) begin
                         token_data <= {rx_data, token_data[15:8]}; // LSB first
-                        token_byte_cnt <= token_byte_cnt + 1;
+                        token_byte_cnt <= token_byte_cnt + 2'd1;
                     end
                     
                     if (rx_pkt_end) begin
@@ -218,7 +218,7 @@ module usb_device_core (
                     if (rx_data_valid) begin
                         if (token_pid == PID_SETUP) begin
                             setup_data[setup_idx] <= rx_data;
-                            setup_idx <= setup_idx + 1;
+                            setup_idx <= setup_idx + 3'd1;
                         end
                     end
                     
@@ -268,7 +268,7 @@ module usb_device_core (
                                     if (desc_valid && desc_byte_index < wLength) begin
                                         tx_data <= desc_data_out;
                                         tx_data_valid <= 1;
-                                        desc_byte_index <= desc_byte_index + 1;
+                                        desc_byte_index <= desc_byte_index + 16'd1;
                                     end else begin
                                         tx_pkt_end <= 1;
                                         state <= ST_RX_HANDSHAKE;
