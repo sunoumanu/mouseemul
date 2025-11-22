@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="usb_mouse_top" Register="25" Alu="24" Lut="2" T_Register="329(25)" T_Alu="52(24)" T_Lut="594(2)">
+ <SubModule name="clk_rst_inst" Register="7" Lut="7" T_Register="7(7)" T_Lut="7(7)"/>
+ <SubModule name="pat_gen" Register="54" Alu="7" Lut="240" T_Register="54(54)" T_Alu="7(7)" T_Lut="240(240)"/>
+ <SubModule name="hid_mgr" Register="19" Lut="17" T_Register="19(19)" T_Lut="17(17)"/>
+ <SubModule name="usb_core" Register="158" Alu="14" Lut="222" T_Register="224(158)" T_Alu="21(14)" T_Lut="328(222)">
+  <SubModule name="packet_handler" Register="66" Lut="106" T_Register="66(66)" T_Lut="106(106)"/>
+  <SubModule name="descriptors" Alu="7" T_Alu="7(7)"/>
+ </SubModule>
+</Module>

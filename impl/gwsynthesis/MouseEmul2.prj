@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2AR-18C" package="QFN88" speed="8" partNumber="GW2AR-LV18QN88C8/I7"/>
+    <FileList>
+        <File path="/Users/sunoumanu/src/mouseemul/rtl/clock_reset.sv" type="verilog"/>
+        <File path="/Users/sunoumanu/src/mouseemul/rtl/hid_report_manager.sv" type="verilog"/>
+        <File path="/Users/sunoumanu/src/mouseemul/rtl/pattern_generator.sv" type="verilog"/>
+        <File path="/Users/sunoumanu/src/mouseemul/rtl/usb_descriptors.sv" type="verilog"/>
+        <File path="/Users/sunoumanu/src/mouseemul/rtl/usb_device_core.sv" type="verilog"/>
+        <File path="/Users/sunoumanu/src/mouseemul/rtl/usb_mouse_top.sv" type="verilog"/>
+        <File path="/Users/sunoumanu/src/mouseemul/rtl/usb_packet.sv" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="100.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="/Users/sunoumanu/src/mouseemul/impl/gwsynthesis/MouseEmul2.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="vcc" value="1.0"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

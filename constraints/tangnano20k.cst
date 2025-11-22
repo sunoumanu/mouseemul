@@ -1,11 +1,11 @@
 // Clock
 IO_LOC "clk" 4;
-IO_PORT "clk" PULL_MODE=NONE;
+IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=NONE;
 
 // Reset (S1 on board is often used, or external button)
 // Tang Nano 20K has 2 buttons.
 IO_LOC "rst_n" 88;
-IO_PORT "rst_n" PULL_MODE=UP;
+IO_PORT "rst_n" IO_TYPE=LVCMOS33 PULL_MODE=UP;
 
 // USB
 IO_LOC "usb_dp" 69;

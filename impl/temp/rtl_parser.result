@@ -1,57 +1,57 @@
 [
  {
-  "InstFile" : "C:/soft/dev/hardware/MouseEmul2/rtl/usb_mouse_top.sv",
+  "InstFile" : "/Users/sunoumanu/src/mouseemul/rtl/usb_mouse_top.sv",
   "InstLine" : 1,
   "InstName" : "usb_mouse_top",
-  "ModuleFile" : "C:/soft/dev/hardware/MouseEmul2/rtl/usb_mouse_top.sv",
+  "ModuleFile" : "/Users/sunoumanu/src/mouseemul/rtl/usb_mouse_top.sv",
   "ModuleLine" : 1,
   "ModuleName" : "usb_mouse_top",
   "SubInsts" : [
    {
-    "InstFile" : "C:/soft/dev/hardware/MouseEmul2/rtl/usb_mouse_top.sv",
+    "InstFile" : "/Users/sunoumanu/src/mouseemul/rtl/usb_mouse_top.sv",
     "InstLine" : 18,
     "InstName" : "clk_rst_inst",
-    "ModuleFile" : "C:/soft/dev/hardware/MouseEmul2/rtl/clock_reset.sv",
+    "ModuleFile" : "/Users/sunoumanu/src/mouseemul/rtl/clock_reset.sv",
     "ModuleLine" : 1,
     "ModuleName" : "clock_reset"
    },
    {
-    "InstFile" : "C:/soft/dev/hardware/MouseEmul2/rtl/usb_mouse_top.sv",
+    "InstFile" : "/Users/sunoumanu/src/mouseemul/rtl/usb_mouse_top.sv",
     "InstLine" : 46,
     "InstName" : "pat_gen",
-    "ModuleFile" : "C:/soft/dev/hardware/MouseEmul2/rtl/pattern_generator.sv",
+    "ModuleFile" : "/Users/sunoumanu/src/mouseemul/rtl/pattern_generator.sv",
     "ModuleLine" : 1,
     "ModuleName" : "pattern_generator"
    },
    {
-    "InstFile" : "C:/soft/dev/hardware/MouseEmul2/rtl/usb_mouse_top.sv",
+    "InstFile" : "/Users/sunoumanu/src/mouseemul/rtl/usb_mouse_top.sv",
     "InstLine" : 58,
     "InstName" : "hid_mgr",
-    "ModuleFile" : "C:/soft/dev/hardware/MouseEmul2/rtl/hid_report_manager.sv",
+    "ModuleFile" : "/Users/sunoumanu/src/mouseemul/rtl/hid_report_manager.sv",
     "ModuleLine" : 1,
     "ModuleName" : "hid_report_manager"
    },
    {
-    "InstFile" : "C:/soft/dev/hardware/MouseEmul2/rtl/usb_mouse_top.sv",
+    "InstFile" : "/Users/sunoumanu/src/mouseemul/rtl/usb_mouse_top.sv",
     "InstLine" : 72,
     "InstName" : "usb_core",
-    "ModuleFile" : "C:/soft/dev/hardware/MouseEmul2/rtl/usb_device_core.sv",
+    "ModuleFile" : "/Users/sunoumanu/src/mouseemul/rtl/usb_device_core.sv",
     "ModuleLine" : 1,
     "ModuleName" : "usb_device_core",
     "SubInsts" : [
      {
-      "InstFile" : "C:/soft/dev/hardware/MouseEmul2/rtl/usb_device_core.sv",
+      "InstFile" : "/Users/sunoumanu/src/mouseemul/rtl/usb_device_core.sv",
       "InstLine" : 42,
       "InstName" : "packet_handler",
-      "ModuleFile" : "C:/soft/dev/hardware/MouseEmul2/rtl/usb_packet.sv",
+      "ModuleFile" : "/Users/sunoumanu/src/mouseemul/rtl/usb_packet.sv",
       "ModuleLine" : 1,
       "ModuleName" : "usb_packet"
      },
      {
-      "InstFile" : "C:/soft/dev/hardware/MouseEmul2/rtl/usb_device_core.sv",
+      "InstFile" : "/Users/sunoumanu/src/mouseemul/rtl/usb_device_core.sv",
       "InstLine" : 114,
       "InstName" : "descriptors",
-      "ModuleFile" : "C:/soft/dev/hardware/MouseEmul2/rtl/usb_descriptors.sv",
+      "ModuleFile" : "/Users/sunoumanu/src/mouseemul/rtl/usb_descriptors.sv",
       "ModuleLine" : 1,
       "ModuleName" : "usb_descriptors"
      }

@@ -2,31 +2,31 @@
  "Device" : "GW2AR-18C",
  "Files" : [
   {
-   "Path" : "C:/soft/dev/hardware/MouseEmul2/rtl/clock_reset.sv",
+   "Path" : "/Users/sunoumanu/src/mouseemul/rtl/clock_reset.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/soft/dev/hardware/MouseEmul2/rtl/hid_report_manager.sv",
+   "Path" : "/Users/sunoumanu/src/mouseemul/rtl/hid_report_manager.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/soft/dev/hardware/MouseEmul2/rtl/pattern_generator.sv",
+   "Path" : "/Users/sunoumanu/src/mouseemul/rtl/pattern_generator.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/soft/dev/hardware/MouseEmul2/rtl/usb_descriptors.sv",
+   "Path" : "/Users/sunoumanu/src/mouseemul/rtl/usb_descriptors.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/soft/dev/hardware/MouseEmul2/rtl/usb_device_core.sv",
+   "Path" : "/Users/sunoumanu/src/mouseemul/rtl/usb_device_core.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/soft/dev/hardware/MouseEmul2/rtl/usb_mouse_top.sv",
+   "Path" : "/Users/sunoumanu/src/mouseemul/rtl/usb_mouse_top.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/soft/dev/hardware/MouseEmul2/rtl/usb_packet.sv",
+   "Path" : "/Users/sunoumanu/src/mouseemul/rtl/usb_packet.sv",
    "Type" : "verilog"
   }
  ],
@@ -34,7 +34,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "C:/soft/dev/hardware/MouseEmul2/impl/temp/rtl_parser.result",
+ "ResultFile" : "/Users/sunoumanu/src/mouseemul/impl/temp/rtl_parser.result",
  "Top" : "",
  "VerilogStd" : "sysv",
  "VhdlStd" : "vhdl_93"
